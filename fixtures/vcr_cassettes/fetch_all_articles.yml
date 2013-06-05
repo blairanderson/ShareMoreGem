@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://share-more.herokuapp.com/api/v1/articles?access_token=JDVr-w8bxoU
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.7
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 05 Jun 2013 21:15:35 GMT
+      Etag:
+      - ! '"4722c1753183d5e27a2b20205d6bac01"'
+      Server:
+      - WEBrick/1.3.1 (Ruby/1.9.2/2011-07-09)
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - 3ca9a11a0a0cb2ff94951f3f4ce4fd3d
+      X-Runtime:
+      - '0.039676'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '1889'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '[{"body":"Valid Body","created_at":"2013-06-05T21:15:33Z","title":"Valid
+        Title","article_id":"5V_2plo","url":"http://share-more.herokuapp.com/articles/5V_2plo"},{"body":"Valid
+        Body","created_at":"2013-06-05T05:24:18Z","title":"Valid Title","article_id":"iq-X4SY","url":"http://share-more.herokuapp.com/articles/iq-X4SY"},{"body":"Valid
+        Body","created_at":"2013-06-05T05:17:14Z","title":"Valid Title","article_id":"OLO8hVM","url":"http://share-more.herokuapp.com/articles/OLO8hVM"},{"body":"Valid
+        Body","created_at":"2013-06-05T05:17:12Z","title":"Valid Title","article_id":"4zAu0mI","url":"http://share-more.herokuapp.com/articles/4zAu0mI"},{"body":"Valid
+        Body","created_at":"2013-06-05T05:17:04Z","title":"Valid Title","article_id":"khLWwJk","url":"http://share-more.herokuapp.com/articles/khLWwJk"},{"body":"Valid
+        Body","created_at":"2013-06-05T05:16:44Z","title":"Valid Title","article_id":"1_0zBZQ","url":"http://share-more.herokuapp.com/articles/1_0zBZQ"},{"body":"Valid
+        Body","created_at":"2013-06-05T05:07:25Z","title":"Valid Title","article_id":"-ZMIFts","url":"http://share-more.herokuapp.com/articles/-ZMIFts"},{"body":"Valid
+        Body","created_at":"2013-06-05T05:05:49Z","title":"Valid Title","article_id":"ubnxtC0","url":"http://share-more.herokuapp.com/articles/ubnxtC0"},{"body":null,"created_at":"2013-06-05T04:43:20Z","title":null,"article_id":"He0M1Hs","url":"http://share-more.herokuapp.com/articles/He0M1Hs"},{"body":null,"created_at":"2013-06-05T04:42:55Z","title":null,"article_id":"yFun2d4","url":"http://share-more.herokuapp.com/articles/yFun2d4"},{"body":null,"created_at":"2013-06-05T04:42:33Z","title":null,"article_id":"zRNIJ24","url":"http://share-more.herokuapp.com/articles/zRNIJ24"},{"body":"This
+        is a fancy text editor","created_at":"2013-06-04T23:47:26Z","title":"Article
+        Title","article_id":"bj5KdHc","url":"http://share-more.herokuapp.com/articles/bj5KdHc"}]'
+    http_version: 
+  recorded_at: Wed, 05 Jun 2013 21:15:34 GMT
+recorded_with: VCR 2.5.0
