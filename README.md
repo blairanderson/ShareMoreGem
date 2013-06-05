@@ -20,7 +20,7 @@ Or install it yourself as:
 
 Create a new Instance with your api key.
 
-    $ client = Shremore::SM.new("YOUR_SHAREMORE_API_KEY_HERE")
+    $ client = Sharemore::SM.new("YOUR_SHAREMORE_API_KEY_HERE")
 
 
 Then you can get all your articles
