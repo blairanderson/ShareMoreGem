@@ -1,6 +1,6 @@
 # Sharemore
 
-TODO: Write a gem description
+An API wrapper for [Sharemore](http://share-more.herokuapp.com)
 
 ## Installation
 
